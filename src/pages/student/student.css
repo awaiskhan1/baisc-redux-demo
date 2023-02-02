@@ -1,0 +1,194 @@
+.add-student {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.add-student .btn {
+    width: 400px;
+    font-size: 20px;
+    line-height: 55px;
+    border: none;
+    color: white;
+    color: #61DBFB;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px auto;
+    /* line-height: 30px; */
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.add-student .btn-success {
+    background: #9b87fd;
+}
+
+.add-student .btn-danger {
+    background: #FD5E53;
+}
+
+.add-student input,
+.add-student select {
+    width: 400px;
+    line-height: 55px;
+    height: 55px;
+    text-indent: 10px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #9b87fd;
+    margin-bottom: 25px;
+    color: #f1f1f1;
+}
+
+.add-student select .text {
+    color:#2a2734;
+}
+
+.add-student input:focus,
+.add-student select:focus {
+    border: none;
+    outline: none;
+    border: 1px solid #9b87fd;
+}
+
+.add-student label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #f1f1f1;
+    display: flex;
+    width: 100%;
+}
+
+::placeholder {
+    color: #f1f1f1;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+.student-title {
+    text-align: center;
+}
+
+.student-menu .tabs_wrap {
+    padding: 20px;
+    border-bottom: 1px solid #ebedec;
+}
+
+.student-menu .tabs_wrap ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.student-menu .tabs_wrap ul li {
+    width: 155px;
+    text-align: center;
+    background: #e9ecf1;
+    border-right: 1px solid #e9ecf1;
+    color: #2a2734;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.student-menu .tabs_wrap ul li a {
+    padding: 13px 15px;
+    width: 100px;
+    display: flex;
+    align-self: center;
+    text-align: center;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    color: #2a2734;
+}   
+
+.student-menu .tabs_wrap ul li:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.student-menu .tabs_wrap ul li:last-child {
+    border-right: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.student-menu .tabs_wrap ul li:hover,
+.student-menu .tabs_wrap ul li.active {
+    background: #9b87fd;
+    color: #f1f1f1;
+}
+
+.student-menu .tabs_wrap ul li:hover a,
+.student-menu .tabs_wrap ul li.active a {
+    color: #f1f1f1;
+}
+
+
+.student-list{
+    padding: 20px;
+}
+
+.student-list-wrapper {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-top: 20px;
+    justify-content: center;
+}
+.student-list-box{
+    width: 350px;
+    border-radius: 5px;
+    min-height: 70px ;
+    display: flex;
+    flex-flow: row;
+    background: #3c384c;
+    padding: 5px 10px;
+    margin: 8px;
+    padding-bottom: 12px;
+    align-items: center;
+}
+.student-list-profile{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #9b87fd;
+    text-align: center;
+    line-height: 50px;
+    align-self: center;
+    padding: 0px 13px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.student-list-description{
+    padding-left: 10px;
+}
+.student-list-description h5 {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 4px;
+    margin-top: 7px;
+        text-transform: capitalize;
+}
+.student-list-description p {
+    margin: 0px;
+    padding: 0px;
+}
